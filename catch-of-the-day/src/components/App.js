@@ -11,6 +11,10 @@ class App extends React.Component {
     fishes: {},
     order: {}
   };
+  componentDidMount() {
+    console.log('mounted');
+  }
+
 
   addFish = fish => {
     // 1. Take a copy of the existing this.state
