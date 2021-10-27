@@ -4,6 +4,7 @@ import { formatPrice } from "../helpers";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
 class Order extends React.Component {
+  
   static propTypes = {
     fishes: PropTypes.object,
     order: PropTypes.object,
